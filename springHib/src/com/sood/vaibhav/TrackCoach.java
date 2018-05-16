@@ -18,5 +18,17 @@ public class TrackCoach implements Coach{
 		// TODO Auto-generated method stub
 		return fortuneInterface.getFortune();
 	}
-
+	public void doMyStartupStuff (){
+		System.out.println("startup method called");
+		
+		
+	}
+	
+	
+	public void doMyCleanupupStuff () {
+		System.out.println("cleanup method called");
+		
+		
+		
+	}
 }
