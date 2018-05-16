@@ -14,7 +14,7 @@ public class HelloSpringApp {
 		//call methods
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDailyFortune());
-		System.out.println(theCricketCoach.getDailyWorkout());
+		System.out.println(theCricketCoach.getDailyWorkout()       );
 		System.out.println(theCricketCoach.getDailyFortune());
 		System.out.println();
 		//close context
